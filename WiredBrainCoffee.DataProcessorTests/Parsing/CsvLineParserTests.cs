@@ -6,7 +6,7 @@ public class CsvLineParserTests
     public void ShouldParseValidLine()
     {
         // Arrange.
-        string[] csvLines = new[] { "Copuchino;07/08/2023 13:23:38" };
+        string[] csvLines = new[] { "Copuchino;2023/08/07 13:23:38" };
 
         // Act.
         var machineDataItems = CsvLineParser.Parse(csvLines);
